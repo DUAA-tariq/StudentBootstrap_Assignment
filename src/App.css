@@ -1,0 +1,161 @@
+.main-content {
+  flex: 1 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.directory-breadcrumb {
+  background-color: #343a40;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.directory-breadcrumb .breadcrumb-item,
+.directory-breadcrumb .breadcrumb-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.directory-breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+}
+
+.directory-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #adb5bd;
+}
+
+.page-header {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.page-header h2 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.page-header .btn {
+  background-color: #234779;
+  border-color: #234779;
+}
+
+.student-list {
+  margin: 0 auto;
+  max-width: 920px;
+  margin-bottom: 15px;
+}
+
+.student-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.student-avatar {
+  height: 96px;
+  background: #ced0d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.avatar-head {
+  width: 43px;
+  height: 43px;
+  background: #929498;
+  border-radius: 50%;
+  margin-bottom: -1px;
+}
+
+.avatar-body {
+  width: 82px;
+  height: 27px;
+  background: #929498;
+  border-radius: 50% 50% 0 0;
+}
+
+.student-card .card-body {
+  padding: 15px;
+}
+
+.student-card .card-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.student-card .card-text {
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.student-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 13px;
+}
+
+.student-buttons .btn {
+  white-space: nowrap;
+}
+
+.pagination {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.student-alert {
+  margin: 0 25px 0;
+}
+
+.footer-section {
+  flex-shrink: 0;
+  background: #212529;
+  color: white;
+  padding: 22px 0 12px;
+  margin-top: 0;
+}
+
+.footer-section h5 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.footer-section p {
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section hr {
+  border-color: #555;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 576px) {
+  .page-header h2 {
+    font-size: 23px;
+  }
+
+  .page-header .btn {
+    font-size: 12px;
+  }
+
+  .student-alert {
+    margin: 0;
+  }
+}
